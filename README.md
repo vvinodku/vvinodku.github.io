@@ -1,2 +1,2 @@
-# Link to website: vvinodku.github.io
-##Created with HTML + CSS
+Link to website: vvinodku.github.io
+Created with HTML + CSS
