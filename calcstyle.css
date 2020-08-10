@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.answer {
+    height: 100px;
+    width: 400px;
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: right;
+    color: white;
+    background-color: black;
+    border: 3px solid rgb(58, 57, 57);
+    justify-content: center;
+    font-size: 32px;
+}
+
+.num {
+    height:100px;
+    width: 100px;
+    background-color: #d8d9db;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.C {
+    height: 100px;
+    width: 200px;
+    background-color: #d8d9db;
+    text-align: center;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.zero {
+    height: 100px;
+    width: 300px;
+    background-color: #d8d9db;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.op {
+    background-color: coral;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.op:hover {
+    background-color: #FFE4C4;
+    
+}
+
+button:hover {
+    background-color: rgb(139, 137, 134);
+}
