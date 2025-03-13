@@ -3,6 +3,11 @@
     src: url('fonts/Chomsky.otf'); 
 } 
 
+@font-face {
+    font-family: Crown;
+    src: url('fonts/Crown\ Heritage.otf')
+}
+
 body {
     background-image: url('static_files/background.png');
 }
@@ -39,18 +44,35 @@ body {
 }
 
 .bodyRow {
+    font-family: Crown;
     display: flex;
 }
 
 .bigColumn1 {
     width: 80%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
+
+.snippet {
+
+}
+
 .bigColumn2 {
     width: 20%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+.hasCaption {
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.caption {
+    margin-top: 0px;
 }
