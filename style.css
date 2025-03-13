@@ -56,7 +56,12 @@ body {
 }
 
 .snippet {
+    width: 60%;
+    border-style: double;
+}
 
+.job {
+    width: 30%
 }
 
 .bigColumn2 {
