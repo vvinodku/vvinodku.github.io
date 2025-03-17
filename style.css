@@ -8,6 +8,11 @@
     src: url('fonts/Crown\ Heritage.otf')
 }
 
+@font-face {
+    font-family: Beach;
+    src: url('fonts/JacklightBeach.otf')
+}
+
 body {
     background-image: url('static_files/background.png');
 }
@@ -49,23 +54,50 @@ body {
 }
 
 .bigColumn1 {
-    width: 80%;
+    width: 70%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
 }
 
+.headline {
+    font-size: 3em;
+}
+
+.line1 {
+    display: flex;
+}
+
 .snippet {
-    width: 60%;
+    height: 100%;
+    width: 35%;
+    margin-right: 2%;
     border-style: double;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profile {
+    width: 65%;
+    margin-right: 2%;
+}
+
+.jobs {
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .job {
     width: 30%
 }
 
+.job::first-letter {
+    font-size: 1.5em;
+}
+
 .bigColumn2 {
-    width: 20%;
+    width: 30%;
     /* display: flex; */
     justify-content: center;
     align-items: center;
