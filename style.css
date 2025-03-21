@@ -23,7 +23,7 @@ body {
 }
 
 .archive {
-    width: 10%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,17 +31,18 @@ body {
 }
 
 .name {
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
     /* border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black; */
 }
 
 .resume {
-    width: 10%;
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +90,10 @@ body {
 }
 
 .job {
-    width: 30%
+    width: 30%;
+    border-left: 1px solid black;
+    padding: 10px;
+
 }
 
 .job::first-letter {
