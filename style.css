@@ -17,6 +17,11 @@ body {
     background-image: url('static_files/background.png');
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .headerRow {
     font-family: Chomsky;
     display: flex;
@@ -96,8 +101,13 @@ body {
 
 }
 
+.job:hover {
+    /* background: #e1e1e1; */
+    border: 3px solid black;
+ }
+
 .job::first-letter {
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 .bigColumn2 {
